@@ -1,2 +1,2 @@
 # Object-Tracking
-This object tracking library is optimized using eigen3 and openMP
+This object tracking library is optimized by using Eigen3 and openMP
