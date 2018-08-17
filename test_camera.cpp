@@ -394,7 +394,7 @@ int main(int argc, char * argv[])
 //    cv::line(image,cv::Point(0,-K[1]/K[0]),cv::Point(1800,(1800-K[1])/K[0]),cv::Scalar(0,255,0),3);
 //    cout<<K[0]<<endl;
 //    cout<<K[1]<<endl;
-    cout<<points.size()<<endl;
+//    cout<<points.size()<<endl;
 //    cv::imshow("image",image);
 //    cv::waitKey(0);
 
