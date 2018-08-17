@@ -8,7 +8,7 @@ ___
 
 实验平台:
 *CPU: intel i7 6700K,*
-*Memory:8G*2 DDR4*
+*Memory:8Gx2 DDR4*
 
 ### 性能展示:
 ___
