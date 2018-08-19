@@ -9,16 +9,17 @@ ___
 
 ## Hardware platform:
 ___
-*CPU: intel i7 6700K*<br>*Memory:8Gx2 DDR4*
+&emsp;&emsp;*CPU: intel i7 6700K*<br>
+&emsp;&emsp;*Memory:8G x 2 DDR4*
 ___
 ## Performance:
 ___
 **RANSAC**: Linear Fitting, 600 sample point, 500 iteration, Time consuming:*100us *<br>
 **Kalman Filter**: Two dimensional coordinate tracking, System state variable is [x,y,dx,dy],prediction+update,Mean time consuming:*8us*
 ___
-## 一.Camera calibration——If you want to do something good, you mast sharpen it firstly<br>
+## 一.Camera calibration(If you want to do something good, you mast sharpen it firstly)<br>
 ___
-&emsp;&emsp;Use opencv's own calibration tool to calculate the internal parameters of the camera, the chessboard picture has been given, fool-style operation, take a look.
+Use opencv's own calibration tool to calculate the internal parameters of the camera, the chessboard picture has been given, fool-style operation, take a look.
 ___
 ### Requirments:<br>
 		opencv: >=3.3.0 or >=3.0.0
