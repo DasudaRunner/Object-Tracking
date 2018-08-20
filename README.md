@@ -19,14 +19,35 @@
 		python: >=2.7
 		python-opencv:
 ### Quick Start:<br>
-#### 1.1 Connecte Camera, get images containing checkerboard.
-		python getChecker.py # press 's' to save image
-#### 1.2 get images list file
-		./create_imagelist imagelist.yaml *.jpg
-#### 1.3 Calculate the internal parameters of the camera.
-		./calibration -w=7 -h=7 imagelist.yaml
-#### 1.4 Of course, I encapsulated these commands<1.2,1.3> into a script file, and you can also run the following command.
-		sudo sh calibration_camera.sh
-&emsp;&emsp;get out_camera_data.yml , this is a file that contains your camera's internal reference.
-#### 1.5 You can run ./demo, and get corrected images.
-		./demo
+#### &emsp;Step 1. Connecte Camera, get images containing checkerboard.
+		$./src: python getChecker.py # press 's' to save image
+#### &emsp;Step 2. Of course, I encapsulated these commands into a script file, and you can  run the following command.
+		$./src: sudo sh calibration_camera.sh
+&emsp;&emsp;&emsp;Now you can get out_camera_data.yml , this is a file that contains your camera's internal reference.
+#### &emsp;Step 3. You can run ./demo, and get corrected images.
+		$./src: ./demo
+&emsp;&emsp;&emsp;Actually, we call tracking.hpp's interface remap_image().<br>
+```
+	#include "opencv2/core.hpp"
+	#include "opencv2/imgcodecs.hpp"
+	#include "opencv2/highgui.hpp"
+	#include <opencv2/opencv.hpp>
+	#include "../../../tracking.hpp"
+	#include <iostream>
+	using namespace std;
+	int main(int argc, char* argv[])
+	{
+		cv::VideoCapture cap;
+		cap.open(0);
+		wong::calibration_camera camera("../out_camera_data.yml");
+		cv::Mat frame,out;
+		cout<<"Press any key to exit the program !"<<endl;
+		for (;;){
+			cap >> frame;
+			camera.remap_image(frame,out);
+			cv::imshow("src",out);
+			if(cv::waitKey(5)>=0)
+				break;
+		}
+	}
+```
