@@ -35,7 +35,7 @@ ___
 		./create_imagelist imagelist.yaml *.jpg
 #### 3.Calculate the internal parameters of the camera.
 		./calibration -w=7 -h=7 imagelist.yaml
-#### 4.Of course, I encapsulated these commands(2,3) into a script file, and you can also run the following command.
+#### 4.Of course, I encapsulated these commands<2,3> into a script file, and you can also run the following command.
 		sudo sh calibration_camera.sh
 &emsp;&emsp;get out_camera_data.yml , this is a file that contains your camera's internal reference.
 #### 5.You can run ./demo, and get corrected images.
