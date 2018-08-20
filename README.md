@@ -1,5 +1,4 @@
 # Object-Tracking
-___
 &emsp;[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)<br>
 ## This object tracking library is optimized by using Eigen3 and openMP
 - &emsp;&emsp;*Author: Haibo Wang*<br>
