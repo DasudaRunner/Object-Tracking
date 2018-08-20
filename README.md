@@ -5,7 +5,7 @@ ___
 &emsp;&emsp;*Email: dasuda2015@163.com*
 ___
 
-&emsp;&emsp;*This isan open source Object-Tracking library, The development language is C++, The classic and mainstream object tracking algorithms and related algorithms are reproduced(For example, RANSAC, least squares and so on). Of course, these are optimized by Eigen3 and openMP.*
+&emsp;&emsp;*This is an open source Object-Tracking library, The development language is C++, The classic and mainstream object tracking algorithms and related algorithms are reproduced(For example, RANSAC, least squares and so on). Of course, these are optimized by Eigen3 and openMP.*
 
 ## Hardware platform:
 ___
