@@ -11,15 +11,10 @@ find_package(CUDA REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS}b ${CUDA_INCLUDE_DIRS})
 
-add_subdirectory(KCFlib)
-
 # Declare the executable target built from your sources
 add_executable(tracker
         test_camera.cpp
         tracking.hpp
-        cv-helpers.hpp
-#        source.cpp
-#        runtracker.cpp
         )
 # Link your application with OpenCV libraries
-target_link_libraries(tracker dlib ${OpenCV_LIBS} KCF ${CUDA_LIBRARIES})
+target_link_libraries(tracker dlib ${OpenCV_LIBS} ${CUDA_LIBRARIES})
