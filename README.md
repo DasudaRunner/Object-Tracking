@@ -11,7 +11,7 @@
 - **RANSAC**: Linear Fitting, 600 sample point, 500 iteration, Time consuming:*100us *<br>
 - **Kalman Filter**: Two dimensional coordinate tracking, System state variable is [x,y,dx,dy],prediction+update,Mean time consuming:*8us*<br>
 - **MeanShift**:using kernel function,refactoring with Eigen3 and openMP.
-## 1.Camera calibration(If you want to do something good, you mast sharpen it firstly)<br>
+## 1. Camera calibration(If you want to do something good, you mast sharpen it firstly)<br>
 - Use opencv's own calibration tool to calculate the internal parameters of the camera, the chessboard picture has been given, fool-style operation, take a look.
 ### Location:<br>
 		DasudaRunner/Object-Tracking/calibration_camera
