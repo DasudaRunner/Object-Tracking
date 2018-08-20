@@ -1,4 +1,7 @@
 # Object-Tracking
+___
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+___
 ## This object tracking library is optimized by using Eigen3 and openMP
 - &emsp;&emsp;*Author: Haibo Wang*<br>
 - &emsp;&emsp;*Email: dasuda2015@163.com*
@@ -27,7 +30,7 @@
 #### &emsp;Step 3. You can run ./demo, and get corrected images.
 		$./src: ./demo
 &emsp;&emsp;&emsp;Actually, we call tracking.hpp's interface remap_image().<br>
-```
+```cpp
 	#include "opencv2/core.hpp"
 	#include "opencv2/imgcodecs.hpp"
 	#include "opencv2/highgui.hpp"
