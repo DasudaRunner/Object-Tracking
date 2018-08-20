@@ -21,12 +21,12 @@
 		python-opencv:
 ### Quick Start:<br>
 #### &emsp;Step 1. Connecte Camera, get images containing checkerboard.
-		$./src: python getChecker.py # press 's' to save image
+		./src$ python getChecker.py # press 's' to save image
 #### &emsp;Step 2. I encapsulated these commands into a script file, and you can  run the following command.
-		$./src: sudo sh calibration_camera.sh
+		./src$ sudo sh calibration_camera.sh
 &emsp;&emsp;&emsp;Now you can get out_camera_data.yml , this is a file that contains your camera's internal reference.
 #### &emsp;Step 3. You can run ./demo, and get corrected images.
-		$./src: ./demo
+		./src$ ./demo
 &emsp;&emsp;&emsp;Actually, we call tracking.hpp's interface remap_image().<br>
 ```cpp
 	#include "opencv2/core.hpp"
