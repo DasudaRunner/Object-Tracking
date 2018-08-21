@@ -27,7 +27,7 @@
 &emsp;&emsp;&emsp;Now you can get out_camera_data.yml , this is a file that contains your camera's internal reference.
 #### &emsp;Step 3. You can run ./demo, and get corrected images.
 		./src$ ./demo
-&emsp;&emsp;&emsp;Actually, we call tracking.hpp's interface remap_image().<br>
+&emsp;&emsp;&emsp;Actually, it call the function remap_image() in tracking.hpp.<br>
 ```cpp
 	#include <opencv2/core.hpp>
 	#include <opencv2/imgcodecs.hpp>
