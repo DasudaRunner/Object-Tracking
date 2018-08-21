@@ -1,7 +1,7 @@
 ![image](https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/icon_big.jpg)<br>
 ___
 # Object-Tracking<br>
-&nbsp;&nbsp;[![author Haibo](https://img.shields.io/badge/author-Haibo%20Wong-blue.svg?style=flat)](https://github.com/DasudaRunner/Object-Tracking)&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;[![author Haibo](https://img.shields.io/badge/author-Haibo%20Wong-blue.svg?style=flat)](https://github.com/DasudaRunner/Object-Tracking)&nbsp;&nbsp;&nbsp;&nbsp;
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)<br>
 ## This object tracking library is optimized by using Eigen3 and openMP
 - &emsp;&emsp;***Author**: Haibo Wang*<br>
