@@ -13,10 +13,13 @@ ___
 ## Performance:
 - **RANSAC**: Linear Fitting, 600 sample point, 500 iteration, Time consuming:*100us*<br>
 - **Kalman Filter**: Two dimensional coordinate tracking, System state variable is [x,y,dx,dy],prediction+update. Mean time consuming:*8us*<br>
-![kalman](<div align=center><img width="300" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/kalman.gif"/></div>)
+
+# <div align=center><img width="300" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/kalman.gif"/></div>
 
 - **MeanShift**:using kernel function,refactoring with Eigen3 and openMP. Test images's size is 640x480,using RGB color space. Mean time consuming:*100-2000us*<br>
-![meanshift](https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/meanshift.gif)
+
+# <div align=center><img width="300" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/meanshift.gif"/></div>
+
 ___
 ## 1. Camera calibration(If you want to do something good, you mast sharpen it firstly)<br>
 - Using opencv's own calibration tool to calculate the internal parameters of the camera, the chessboard picture has been given, fool-style operation, take a look.
