@@ -34,8 +34,8 @@ ___
 ### Location:<br>
 		DasudaRunner/Object-Tracking/calibration_camera
 ### Requirments:<br>
-		opencv: >=3.3.0 or >=3.0.0
-		python: >=2.7
+		opencv:>=3.3.0 or >=3.0.0
+		python:>=2.7
 		python-opencv:
 ### Quick Start:<br>
 #### &emsp;Step 1. Connecte Camera, get images containing checkerboard.
