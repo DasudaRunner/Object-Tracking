@@ -11,7 +11,10 @@ ___
 - &emsp;&emsp;***CPU**: intel i7 6700K*<br>
 - &emsp;&emsp;***Memory**: 8G x 2 DDR4*
 ## Performance:
-- **RANSAC**: Linear Fitting, 600 sample point, 500 iteration, Time consuming:*100us*<br>
+- **RANSAC**: Linear Fitting, 600 sample point, 500 iteration, Time consuming:*60-100us*<br>
+
+# <div align=center><img src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/RANSAC.png"/></div>
+
 - **Kalman Filter**: Two dimensional coordinate tracking, System state variable is [x,y,dx,dy],prediction+update. Mean time consuming:*8us*<br>
 
 # <div align=center><img width="300" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/kalman.gif"/></div>
