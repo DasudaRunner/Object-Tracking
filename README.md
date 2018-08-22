@@ -9,11 +9,13 @@ ___
 - &emsp;*This is an open source Object-Tracking library, The development language is C++, The classic and mainstream object tracking algorithms and related algorithms are reproduced(For example, RANSAC, least squares and so on). Of course, these are optimized by Eigen3 and openMP.*
 ## Hardware platform:
 - &emsp;***CPU**: intel i7 6700K*<br>
-- &emsp;***Memory**: 8G x 2 DDR4*
+- &emsp;***Memory**: 8G x 2 DDR4*<br>
+- &emsp;***GPU**: GTX 1070 8GHz*
 ## Performance:
 - **RANSAC**:<br>
 *Linear Fitting, 600 sample point, 500 iteration, Time consuming: **70-100us***<br>
 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`The least-square method` &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `RANSAC`
 # <div align=center><img width="593" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/RANSAC.png"/></div>
 
 - **Kalman Filter**:<br>
