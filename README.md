@@ -4,22 +4,25 @@ ___
 &nbsp;[![author Haibo](https://img.shields.io/badge/author-Haibo%20Wong-blue.svg?style=flat)](https://github.com/DasudaRunner/Object-Tracking)&nbsp;&nbsp;&nbsp;&nbsp;
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)<br>
 ## This object tracking library is optimized by using Eigen3 and openMP
-- &emsp;&emsp;***Author**: Haibo Wang*<br>
-- &emsp;&emsp;***Email**: dasuda2015@163.com*
-- &emsp;&emsp;*This is an open source Object-Tracking library, The development language is C++, The classic and mainstream object tracking algorithms and related algorithms are reproduced(For example, RANSAC, least squares and so on). Of course, these are optimized by Eigen3 and openMP.*
+- &emsp;***Author**: Haibo Wang*<br>
+- &emsp;***Email**: dasuda2015@163.com*
+- &emsp;*This is an open source Object-Tracking library, The development language is C++, The classic and mainstream object tracking algorithms and related algorithms are reproduced(For example, RANSAC, least squares and so on). Of course, these are optimized by Eigen3 and openMP.*
 ## Hardware platform:
-- &emsp;&emsp;***CPU**: intel i7 6700K*<br>
-- &emsp;&emsp;***Memory**: 8G x 2 DDR4*
+- &emsp;***CPU**: intel i7 6700K*<br>
+- &emsp;***Memory**: 8G x 2 DDR4*
 ## Performance:
-- **RANSAC**: Linear Fitting, 600 sample point, 500 iteration, Time consuming:*70-100us*<br>
+- **RANSAC**:<br>
+*Linear Fitting, 600 sample point, 500 iteration, Time consuming: **70-100us***<br>
 
-# <div align=center><img src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/RANSAC.png"/></div>
+# <div align=center><img width="593" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/RANSAC.png"/></div>
 
-- **Kalman Filter**: Two dimensional coordinate tracking, System state variable is [x,y,dx,dy],prediction+update. Mean time consuming:*8us*<br>
+- **Kalman Filter**:<br>
+*Two dimensional coordinate tracking, System state variable is [x,y,dx,dy], prediction+update. Mean time consuming: **8us***<br>
 
 # <div align=center><img width="300" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/kalman.gif"/></div>
 
-- **MeanShift**:using kernel function,refactoring with Eigen3 and openMP. Test images's size is 640x480,using RGB color space. Mean time consuming:*100-2000us*<br>
+- **MeanShift**:<br>
+*Using kernel function,refactoring with Eigen3 and openMP, Test images's size is 640x480, using RGB color space. Mean time consuming:**100-2000us***<br>
 
 # <div align=center><img width="300" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/meanshift.gif"/></div>
 
