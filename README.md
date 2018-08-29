@@ -8,7 +8,7 @@ ___
 - &emsp;***Email**: dasuda2015@163.com*
 - &emsp;*This is an open source Object-Tracking library, The development language is C++, The classic and mainstream object tracking algorithms and related algorithms are reproduced(For example, RANSAC, least squares and so on). Of course, these are optimized by Eigen3 and openMP.*
 ## Hardware platform:
-- &emsp;***CPU**: intel i7 6700K*<br>
+- &emsp;***CPU**: intel i5 7500*<br>
 - &emsp;***Memory**: 8G x 2 DDR4*<br>
 - &emsp;***GPU**: GTX 1070 8GHz*
 ## Performance:
