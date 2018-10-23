@@ -29,7 +29,7 @@ ___
 # <div align=center><img width="300" height="250" src="https://github.com/DasudaRunner/Object-Tracking/blob/master/icon/meanshift.gif"/></div>
 
 ___
-## 1. Camera calibration(If you want to do something good, you mast sharpen it firstly)<br>
+## 1. Camera calibration<br>
 - Using opencv's own calibration tool to calculate the internal parameters of the camera, the chessboard picture has been given, fool-style operation, take a look.
 ### Location:<br>
 		DasudaRunner/Object-Tracking/calibration_camera
