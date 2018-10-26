@@ -2,7 +2,7 @@
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
 #include <opencv2/opencv.hpp>
-#include "../../../tracking.hpp"
+#include "../../../TrackingLib/include/tracking.hpp"
 #include <iostream>
 using namespace std;
 int main(int argc, char* argv[])

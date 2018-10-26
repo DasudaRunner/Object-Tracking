@@ -7,14 +7,17 @@ add_definitions(-std=c++11)
 project(tracking)
 
 find_package(OpenCV REQUIRED)
-find_package(CUDA REQUIRED)
+#find_package(CUDA REQUIRED)
 
-include_directories(${OpenCV_INCLUDE_DIRS}b ${CUDA_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS}
+        ${PROJECT_SOURCE_DIR}/TrackingLib/include
+        ${PROJECT_SOURCE_DIR}/utils)
+
+add_subdirectory(TrackingLib)
 
 # Declare the executable target built from your sources
 add_executable(tracker
         test_camera.cpp
-        tracking.hpp
         )
 # Link your application with OpenCV libraries
-target_link_libraries(tracker dlib ${OpenCV_LIBS} ${CUDA_LIBRARIES})
+target_link_libraries(tracker ${OpenCV_LIBS} TRACKING_SRCS)

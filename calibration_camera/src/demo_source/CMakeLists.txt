@@ -13,7 +13,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # Declare the executable target built from your sources
 add_executable(demo
         demo.cpp
-        ../../../tracking.hpp
+        ../../../TrackingLib/include/tracking.hpp
         )
 # Link your application with OpenCV libraries
 target_link_libraries(demo ${OpenCV_LIBS})
