@@ -26,7 +26,6 @@ namespace wong {
 
     class utils{
         private:
-            clock_t last_time;
 
         public:
 
@@ -86,32 +85,6 @@ namespace wong {
             template <typename T1,typename T2>
             static void MatrixToArray(T1& matrix,T2& array){
                 array = matrix.data();
-            }
-
-//            static void PointsToMatrix(std::vector<cv::Point2d>& points,MatrixXd matrix){
-//                unsigned long n_points;
-//                n_points = points.size();
-//                for (int i = 0; i < n_points; ++i) {
-//
-//                }
-//            }
-
-            void clock_start(){
-                last_time = clock();
-            }
-
-            void print_time_us(string ID){
-                cout<<"Total time["<<ID<<"]: "<<((double)((clock()-last_time)*1000000.0)/CLOCKS_PER_SEC)<<"us"<<endl;
-            }
-            void print_time_ms(string ID){
-                cout<<"Total time["<<ID<<"]: "<<((double)((clock()-last_time)*1000.0)/CLOCKS_PER_SEC)<<"ms"<<endl;
-            }
-
-            double getTime_ms(){
-                return ((double)((clock()-last_time)*1000.0)/CLOCKS_PER_SEC);
-            }
-            double getTime_us(){
-                return ((double)((clock()-last_time)*1000000.0)/CLOCKS_PER_SEC);
             }
 
     };
