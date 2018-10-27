@@ -216,8 +216,8 @@
 #include <Eigen/Core>
 #include <omp.h>
 #include <typeinfo>
-#include "TrackingLib/include/tracking.hpp"
-#include "utils/clock.hpp"
+#include "tracking.hpp"
+#include "clock.hpp"
 
 using namespace std;
 using Eigen::MatrixXd;

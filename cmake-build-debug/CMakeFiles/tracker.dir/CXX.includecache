@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/dasuda/david/Object-Tracking/TrackingLib/include/tracking.hpp
+../TrackingLib/include/tracking.hpp
 opencv2/core.hpp
-/home/dasuda/david/Object-Tracking/TrackingLib/include/opencv2/core.hpp
+../TrackingLib/include/opencv2/core.hpp
 opencv2/imgcodecs.hpp
-/home/dasuda/david/Object-Tracking/TrackingLib/include/opencv2/imgcodecs.hpp
+../TrackingLib/include/opencv2/imgcodecs.hpp
 opencv2/highgui.hpp
-/home/dasuda/david/Object-Tracking/TrackingLib/include/opencv2/highgui.hpp
+../TrackingLib/include/opencv2/highgui.hpp
 opencv2/opencv.hpp
 -
 string
@@ -30,6 +30,14 @@ Eigen/Core
 omp.h
 -
 time.h
+-
+
+../utils/clock.hpp
+time.h
+-
+iostream
+-
+stdio.h
 -
 
 /home/dasuda/david/Object-Tracking/test_camera.cpp
@@ -61,18 +69,10 @@ omp.h
 -
 typeinfo
 -
-TrackingLib/include/tracking.hpp
-/home/dasuda/david/Object-Tracking/TrackingLib/include/tracking.hpp
-utils/clock.hpp
-/home/dasuda/david/Object-Tracking/utils/clock.hpp
-
-/home/dasuda/david/Object-Tracking/utils/clock.hpp
-time.h
--
-iostream
--
-stdio.h
--
+tracking.hpp
+/home/dasuda/david/Object-Tracking/tracking.hpp
+clock.hpp
+/home/dasuda/david/Object-Tracking/clock.hpp
 
 /usr/local/include/Eigen/Cholesky
 Core
