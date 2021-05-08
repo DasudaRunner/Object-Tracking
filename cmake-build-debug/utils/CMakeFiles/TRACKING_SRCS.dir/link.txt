@@ -1,2 +1,0 @@
-/usr/bin/ar qc libTRACKING_SRCS.a  CMakeFiles/TRACKING_SRCS.dir/KalmanFilter.cpp.o CMakeFiles/TRACKING_SRCS.dir/MeanShift.cpp.o CMakeFiles/TRACKING_SRCS.dir/RANSAC.cpp.o
-/usr/bin/ranlib libTRACKING_SRCS.a

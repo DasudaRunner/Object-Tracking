@@ -1,6 +1,0 @@
-/home/dasuda/david/Object-Tracking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dasuda/david/Object-Tracking/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dasuda/david/Object-Tracking/cmake-build-debug/CMakeFiles/tracker.dir
-/home/dasuda/david/Object-Tracking/cmake-build-debug/TrackingLib/CMakeFiles/rebuild_cache.dir
-/home/dasuda/david/Object-Tracking/cmake-build-debug/TrackingLib/CMakeFiles/edit_cache.dir
-/home/dasuda/david/Object-Tracking/cmake-build-debug/TrackingLib/CMakeFiles/TRACKING_SRCS.dir
